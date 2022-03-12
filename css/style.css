@@ -1,3 +1,6 @@
+/* Imports google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
 *{
   padding: 0;
   margin: 0;
@@ -10,6 +13,7 @@ body{
   color: var(--white);
   font-size: 1.6rem;
   background-image: linear-gradient(to right, #100A2C, #0f0826dc);
+  font-family: 'Poppins', sans-serif;
 }
 html{
   font-size: 62.5%;
@@ -25,12 +29,38 @@ html{
 }
 a{
   color: var(--white) !important;
+  text-decoration: none;
 }
 p{
   color: var(--gray);
+}
+.common-btn{
+  padding: 2rem 3rem;
+  background: var(--btn-color);
+  border-radius: .8rem;
+  transition: .2s ease-in;
+}
+.common-btn:hover{
+  background: var(--btn-hover);
 }
 /* ------------------------------------------------------------- */
 /* navbar section  */
 header ul li:not(:first-of-type){
   padding-left: 4rem;
+}
+.nav-link:hover{
+  color:var(--hover-green) !important ;
+}
+
+/* Hero section  */
+.hero .heighlight-title{
+  font-size: 7rem;
+  font-weight: 800;
+}
+.hero span{
+  background: -webkit-linear-gradient(45deg, #4289ff, #16ffbe);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 7.5rem;
+  font-weight: 800;
 }
