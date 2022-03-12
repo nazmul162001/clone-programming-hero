@@ -130,3 +130,12 @@ header ul li:not(:first-of-type){
 .app-feature .coder-title{
   font-size: 3rem;
 }
+
+/* Guideline section  */
+.guideline .guidline-title{
+  font-size: 6rem;
+  font-weight: 700;
+}
+.guideline .guidline-title2{
+  color: var(--salmon);
+}
