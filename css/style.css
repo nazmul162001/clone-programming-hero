@@ -12,7 +12,7 @@ body{
   height: 100vh;
   color: var(--white);
   font-size: 1.6rem;
-  background-image: linear-gradient(to right, #100A2C, #0f0826dc);
+  background-image: linear-gradient(to right, #100A2C, #0f0826);
   font-family: 'Poppins', sans-serif;
 }
 html{
@@ -26,6 +26,8 @@ html{
   --yellow: #F6AA28;
   --salmon: #FC535A;
   --gray: #cbcbcb;
+  --rating-bg: #211548;
+  --salmon-2: #FE4565;
 }
 a{
   color: var(--white) !important;
@@ -33,6 +35,9 @@ a{
 }
 p{
   color: var(--gray);
+}
+section{
+  margin: 10rem 0 !important;
 }
 .common-btn{
   padding: 2rem 3rem;
@@ -63,4 +68,65 @@ header ul li:not(:first-of-type){
   -webkit-text-fill-color: transparent;
   font-size: 7.5rem;
   font-weight: 800;
+}
+
+/* Rating section  */
+.rating-section .rating-area{
+  background-color: var(--rating-bg);
+  padding: 4rem;
+  border-radius: 2rem;
+}
+
+/* Our App section  */
+.our-app::before{
+  content: '';
+  position: absolute;
+  background: url(../img/bg-shape/dot-shape.png);
+  width: 200px;
+  height: 200px;
+  z-index: 99;
+  left: -5%;
+  opacity: .5;
+}
+.our-app .app-title{
+  font-size: 7rem;
+  font-weight:700;
+}
+.our-app .app-title2{
+  font-size: 7rem;
+  color: var(--yellow);
+  font-weight:700;
+}
+
+/* app feature section  */
+.app-feature .app-content{
+  background: var(--rating-bg);
+  padding: 2rem;
+  border-radius: 3rem;
+}
+.app-feature .rating-app-title{
+  font-size: 2.5rem;
+  margin: 4rem 0;
+}
+.app-feature .reward-area{
+  background: var(--rating-bg);
+  padding: 6rem 3rem 3rem 3rem ;
+  border-radius: 3rem;
+  margin-bottom: 3rem;
+}
+.app-feature .app-content-title{
+  font-size: 4rem;
+  padding: 2rem;
+}
+
+.app-feature .coder-area{
+  background: var(--salmon-2);
+  padding: 5rem 3rem 3rem 3rem;
+  border-radius: 3rem;
+}
+.app-feature .coder-content{
+  padding-left: 3rem;
+}
+.app-feature .coder-title{
+  font-size: 3rem;
 }
