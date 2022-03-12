@@ -1,0 +1,36 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* Common style / Utilities  */
+body{
+  width: 100%;
+  height: 100vh;
+  color: var(--white);
+  font-size: 1.6rem;
+  background-image: linear-gradient(to right, #100A2C, #0f0826dc);
+}
+html{
+  font-size: 62.5%;
+}
+:root {
+  --white: #ffffff;
+  --hover-green: #007bff;
+  --btn-color: #5C4AF3;
+  --btn-hover: #6E1FEA;
+  --yellow: #F6AA28;
+  --salmon: #FC535A;
+  --gray: #cbcbcb;
+}
+a{
+  color: var(--white) !important;
+}
+p{
+  color: var(--gray);
+}
+/* ------------------------------------------------------------- */
+/* navbar section  */
+header ul li:not(:first-of-type){
+  padding-left: 4rem;
+}
