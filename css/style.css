@@ -228,3 +228,30 @@ header ul li:not(:first-of-type){
 .productive img{
   padding: 2rem 0 3rem 2rem;
 }
+
+/* Job PlaceMent section  */
+.job-placement-title{
+  font-size: 6rem;
+  font-weight: 700;
+  margin: 7rem 0;
+}
+.job-placement img{
+  padding: 2rem;
+}
+.job-placement h2{
+  font-size: 5rem;
+  font-weight: 700;
+}
+.job-placement .job-area{
+  background-color: var(--rating-bg);
+  padding: 5rem;
+  border-radius: 3rem;
+}
+.separate{
+  background: transparent !important;
+}
+.job-worldwide{
+  background-color: var(--rating-bg);
+  padding: 6rem;
+  border-radius: 3rem;
+}
