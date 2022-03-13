@@ -167,3 +167,34 @@ header ul li:not(:first-of-type){
   border-radius: 2rem;
   color: var(--black);
 }
+
+/* Course Plan section  */
+.live-section{
+  background: var(--btn-color);
+  padding: 7rem 3rem;
+  border-radius: 3rem;
+}
+.live-section h2{
+  font-size: 3.5rem;
+  font-weight: 700;
+  padding: 2rem 0;
+  line-height: 6rem;
+}
+.live-section span{
+  color: var(--gray);
+}
+.project-section{
+  background: var(--yellow);
+  padding: 5rem;
+  border-radius: 3rem;
+}
+.project-area h2 {
+  font-size: 4rem;
+  font-weight: 700;
+  color: var(--black);
+  padding-bottom: 2rem;
+}
+.project-area h4{
+  color: var(--black);
+  padding-bottom: 2rem;
+}
