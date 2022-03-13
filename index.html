@@ -5,6 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=q">
   <title>Clone-Programming-Hero</title>
+  <!-- font-awesome CDN  -->
+  <script src="https://kit.fontawesome.com/3a00588570.js" crossorigin="anonymous"></script>
   <!-- favIcon -->
   <link rel="shortcut icon" href="https://play-lh.googleusercontent.com/edmBVFMS9fhuZycs2I6jCO7vGxhH434upOADR2e3x5Wi_s6Et4vcFY0gYs0q_B0qFS8" type="image/x-icon">
   <!-- Bootstrap CDN -->
@@ -13,7 +15,7 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div class="wrapper">
+  <div id="wrapper" class="wrapper">
     <header>
       <!-- navbar section  -->
       <nav class="navbar navbar-expand-lg bg-transparent my-5 py-5">
@@ -169,8 +171,8 @@
           <h1 class="app-title">Best android app to</h1>
           <h1 class="app-title2">learn programming</h1>
           <div class="app-img py-3">
-            <img class="m-3" src="img/icons/google-play.svg" alt="">
-            <img class="m-3" src="img/icons/istore.svg" alt="">
+            <a href="https://play.google.com/store/apps/details?id=com.learnprogramming.codecamp"><img class="m-3" src="img/icons/google-play.svg" alt=""></a>
+            <a href="https://apps.apple.com/us/app/programming-hero-coding-fun/id1478201849"><img class="m-3" src="img/icons/istore.svg" alt=""></a>
           </div>
         </div>
       </div>
@@ -404,7 +406,47 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> <!--END Job PlaceMent-->
+
+  <hr>
+  <!-- Footer section  -->
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-12 office-address">
+          <a class="navbar-brand" href="#">
+            <img src="img/icons/logo.png" alt="">
+          </a>
+          <h3 class="address"><i class="fas fa-map-marker-alt"></i> Level-4, 34, Awal Centre, Banani, Dhaka</h3>
+          <h3 class="email"><i class="fas fa-envelope"></i> Support: support@programming-hero.com</h3>
+          <h3 class="available"><i class="fas fa-phone-alt"></i> (Available : 10:00am to 07:00pm)</h3>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-12 col-12 pt-5">
+          <h3><a href="index.html">Home</a></h3>
+          <h3><a href="index.html">About Us</a></h3>
+          <h3><a href="index.html">Success Page</a></h3>
+          <h3><a href="index.html">Terms and Condition</a></h3>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-12 col-12 pt-5">
+          <h2 class="py-3">Follow us</h2>
+          <div class="icon">
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+      <div class="copyright-text pt-5">
+        <p class="text-center">Copyright &copy; 2022 Programming-hero.com</p>
+        <p class="text-center">Designed by- &copy; <a class="personal" href="https://www.facebook.com/Nazmul1140" target="_blank">Nazmul Hasan</a></p>
+      </div>
+      <div class="scroll d-flex justify-content-center align-items-center">
+       <a href="#wrapper"> <i class="fas fa-angle-double-up"></i></a>
+      </div>
+    </div>
+  </footer>
 
   </div> <!--END Wrapper-->
 

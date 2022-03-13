@@ -255,3 +255,38 @@ header ul li:not(:first-of-type){
   padding: 6rem;
   border-radius: 3rem;
 }
+
+/* footer  */
+footer{
+  padding: 5rem 0 5rem 0;
+  position: relative;
+}
+footer h3{
+  padding: .4rem 0;
+}
+.office-address{
+  line-height: 9rem;
+}
+.fas{
+  padding-right: 1rem;
+}
+.icon .fab{
+  padding: 1.5rem;
+  font-size: 2rem;
+}
+.personal{
+  color: var(--btn-hover) !important;
+}
+.scroll{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: var(--rating-bg);
+  border-radius: 50%;
+  right: 5%;
+  bottom: 20%;
+}
+.scroll .fas{
+  font-size: 2rem;
+  padding-left: 1rem;
+}
