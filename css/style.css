@@ -20,6 +20,7 @@ html{
 }
 :root {
   --white: #ffffff;
+  --black: #000000;
   --hover-green: #007bff;
   --btn-color: #5C4AF3;
   --btn-hover: #6E1FEA;
@@ -138,4 +139,31 @@ header ul li:not(:first-of-type){
 }
 .guideline .guidline-title2{
   color: var(--salmon);
+}
+
+/* Guideline info  */
+.guideline-info{
+  margin: 5rem 0;
+  padding: 3rem;
+  background: var(--rating-bg);
+  border-radius: 3rem;
+}
+.guideline-title{
+  font-size: 3rem;
+  font-weight: 700;
+  padding: 1rem 0;
+}
+.guideline-description,
+.course-info,
+.course-feature{
+  padding: 1rem 0;
+}
+.course-feature h4{
+  padding-left: 1rem;
+}
+.main-content{
+  background: var(--white);
+  padding: .8rem;
+  border-radius: 2rem;
+  color: var(--black);
 }
