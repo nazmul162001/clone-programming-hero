@@ -198,3 +198,33 @@ header ul li:not(:first-of-type){
   color: var(--black);
   padding-bottom: 2rem;
 }
+
+/* best talented section  */
+.best-talent h1{
+  font-size: 6rem;
+  padding: 3rem 0;
+  font-weight: 700;
+}
+.talent-content{
+  padding-left: 3rem;
+}
+.candidate-section{
+  margin-top: 15rem;
+}
+.talent-student{
+  background: var(--rating-bg);
+  padding: 3rem;
+  border-radius: 3rem;
+  margin-bottom: 2rem;
+}
+.talent-content h3{
+  font-size: 3rem;
+}
+.productive{
+  padding: 4rem;
+  background: var(--rating-bg);
+  border-radius: 3rem;
+}
+.productive img{
+  padding: 2rem 0 3rem 2rem;
+}
