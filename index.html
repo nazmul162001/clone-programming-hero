@@ -5,6 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=q">
   <title>Clone-Programming-Hero</title>
+  <!-- js Scroll Animation CDN -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <!-- font-awesome CDN  -->
   <script src="https://kit.fontawesome.com/3a00588570.js" crossorigin="anonymous"></script>
   <!-- favIcon -->
@@ -128,7 +130,7 @@
 
   <!-- Rating section  -->
 
-  <section class="rating-section my-5">
+  <section class="rating-section my-5" data-aos="fade-up" data-aos-duration="2000">
     <div class="container">
       <div class="row rating-area">
         <!-- rating-content-1  -->
@@ -164,7 +166,7 @@
   </section> <!--END Rating Section-->
 
   <!-- Our app section  -->
-  <section class="our-app my-5 py-5 position-relative">
+  <section class="our-app my-5 py-5 position-relative" data-aos="zoom-out-left" data-aos-duration="1000">
     <div class="container">
       <div class="row">
         <div class="our-app-content text-center">
@@ -183,7 +185,8 @@
   <section class="app-feature my-5 py-5">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+        <!-- card-1  -->
+        <div class="col-lg-6 col-md-6 col-sm-12 col-12" data-aos="zoom-in-right" data-aos-duration="1000">
           <div class="app-content text-center">
             <div class="app-img">
               <img src="img/feature/1m-banner.svg" alt="">
@@ -192,13 +195,16 @@
             </div>
           </div>
         </div>
+
         <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-          <div class="row reward-area">
+          <!-- card-2  -->
+          <div class="row reward-area" data-aos="zoom-out-down" data-aos-duration="1000">
             <h2 class="app-content-title">Rewards Badges</h2>
             <h4>Our courses are gamified, you can earn superpowers,Surprise points and gifts for your enjoyble learning.</h4>
             <img src="img/feature/badges.png" alt="">
           </div>
-          <div class="row coder-area">
+          <!-- card-3  -->
+          <div class="row coder-area" data-aos="zoom-in-left" data-aos-duration="1000">
             <div class="col-lg-2 col-md-2 col-sm-2 col-2">
               <img src="img/feature/coder.png" alt="">
             </div>
@@ -208,6 +214,7 @@
             </div>
             <img src="img/feature/phone-2.png" alt="">
           </div>
+
         </div>
       </div>
     </div>
@@ -216,7 +223,7 @@
   <!-- Guidline Section  -->
   <section class="guideline my-5 py-5">
     <div class="container">
-      <div class="row text-center">
+      <div class="row text-center" data-aos="fade-down"data-aos-easing="linear"data-aos-duration="1500">
         <h1 class="guidline-title">
           <span class="guidline-title2">Complete guideline</span> from absolute beginners to getting hired.
         </h1>
@@ -229,7 +236,7 @@
           </div>
         </div>
       </div>
-      <div class="row guideline-info">
+      <div class="row guideline-info" data-aos="flip-left"data-aos-easing="ease-out-cubic"data-aos-duration="2000">
         <div class="col-lg-4 col-md-4 col-sm-12 col-12">
           <img src="img/guidline/course-thumbnails.png" class="img-fluid" alt="">
         </div>
@@ -292,7 +299,7 @@
   <section class="course-plan">
     <div class="container">
       <div class="row d-flex justify-content-between">
-        <div class="col-lg-5 col-md-5 col-sm-12 col-12 live-section">
+        <div class="col-lg-5 col-md-5 col-sm-12 col-12 live-section" data-aos="zoom-in-right" data-aos-duration="1500">
           <div class="live">
             <img src="img/project/live.svg" class="img-fluid" alt="">
             <img src="img/project/3x.svg" class="img-fluid" alt="">
@@ -301,7 +308,7 @@
             Live support <span>sessions</span> three times in a day <span>to solve your coding related issues.</span>
           </h2>
         </div>
-        <div class="col-lg-6 col-md-6 col-sm-12 col-12 project-section">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-12 project-section" data-aos="zoom-in-left" data-aos-duration="1500">
           <div class="project-area">
             <h2>Build 11 professional projects while learning.</h2>
             <h4>Build real-world projects while learning and get international job-placement service.</h4>
@@ -333,30 +340,41 @@
   
   <section class="best-talent">
     <div class="container">
-      <div class="talent-title text-center">
+      <div class="talent-title text-center" data-aos="fade-up"
+      data-aos-duration="3000">
         <h1>Find best talented candidate</h1>
         <a class="common-btn" href="">Successful Student &#x3009</a>
       </div>
       <div class="row candidate-section d-flex justify-content-between">
         <div class="col-lg-6 col-md-6 col-sm-12 col-12">
           <div class="row">
-            <div class="talent-student d-flex align-items-center">
+            <!-- card-1  -->
+            <div class="talent-student d-flex align-items-center" data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
               <img src="img/talent-student/guides.png" alt="">
               <div class="talent-content">
                 <h3>Candidate Guides</h3>
                 <h4>We shortlist and pre-assess resumes and candidates based on your unique needs.</h4>
               </div>
             </div>
-            <div class="talent-student d-flex align-items-center">
+            <!-- card-2  -->
+            <div class="talent-student d-flex align-items-center" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
               <img src="img/talent-student/developer.png" alt="">
               <div class="talent-content">
                 <h3>Futuristic Developer</h3>
                 <h4>Hire energetic Developers who are challenge takers and a quick learner.</h4>
               </div>
             </div>
+
           </div>
         </div>
-        <div class="col-lg-5 col-md-5 col-sm-12 col-12 productive">
+        <!-- card-3  -->
+        <div class="col-lg-5 col-md-5 col-sm-12 col-12 productive" data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
           <img src="img/talent-student/productive.png" alt="">
           <div class="talent-content">
             <h3>Productive team</h3>
@@ -369,23 +387,29 @@
 
   <section class="job-placement">
     <div class="container">
-      <h1 class="job-placement-title text-center">Job placement success</h1>
+      <div class="job-placement-title" data-aos="fade-up"
+      data-aos-anchor-placement="center-bottom" data-aos-duration="3000">
+        <h1 class="job-placement-title text-center">Job placement success</h1>
+      </div>
       <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-12" data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
           <div class="job-image">
             <img src="img/job-placement/job.png" alt="">
           </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-12">
           <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12 col-12 d-flex justify-content-center align-items-center job-area separate">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12 d-flex justify-content-center align-items-center job-area separate" data-aos="zoom-out-left">
               <div class="job-support text-center job-worldwide">
                 <img src="img/job-placement/file.png" alt="">
                 <h2>1000+</h2>
                 <h4>Job placement worldwide</h4>
               </div>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12" data-aos="fade-up"
+            data-aos-anchor-placement="top-center">
               <div class="col-12 d-flex justify-content-center align-items-center job-area mb-5">
                 <div class="job-support text-center">
                   <img src="img/job-placement/document.png" alt="">
@@ -453,5 +477,11 @@
 
   <!-- bootstrap script  -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> 
+  <!-- scroll animation script  -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- initialize -->
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
